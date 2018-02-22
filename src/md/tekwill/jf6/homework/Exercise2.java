@@ -1,5 +1,7 @@
 package md.tekwill.jf6.homework;
 
+import java.lang.reflect.Array;
+
 public class Exercise2 {
 
     static class Player {
@@ -7,7 +9,6 @@ public class Exercise2 {
         int age;
         int points;
     }
-
 
     public static void main(String[] args) {
         Player[] players = new Player[5];
@@ -47,5 +48,14 @@ public class Exercise2 {
         Print the winner's name and age. More points the better.
         * */
         // Write your code here
+        for (Player player : players){
+            System.out.println(player.points);
+
+//        for (int i=0; i < player.points; i++){
+
+//            if (player.points > winner) {
+//                winner = player.points;
+
+        }
     }
 }
