@@ -47,7 +47,8 @@ public class Exercise1 {
         Print all players, one on every line in the following format:
         Player{name='John', age=17, points=200}
         * */
-        for(Player player : players) {
+        for(Player player : players){
+                System.out.println("name = " + player.name + ", age = " + player.age + ", points : " + player.points);
             // Write Your Code Here
         }
     }
