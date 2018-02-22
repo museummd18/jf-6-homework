@@ -53,8 +53,6 @@ public class Exercise2 {
 
 //        for (int i=0; i < player.points; i++){
 
-//            if (player.points > winner) {
-//                winner = player.points;
 
         }
     }
